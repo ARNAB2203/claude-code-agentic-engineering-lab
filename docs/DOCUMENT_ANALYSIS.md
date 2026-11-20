@@ -1,12 +1,30 @@
 # Document analysis
 
-## Provenance and limitation
+## Provenance and scope
 
-The only supplied attachment is **MASTER PROMPT — Claude Code Agentic Engineering Lab** (pasted text, 26,624 bytes). It is a project brief, not the separate reference document that section 3 asks to analyse. No page-numbered reference, diagrams, tables, examples, or source snippets beyond the brief were supplied.
+The implementation brief was supplied as pasted text. The requested reference is now available as **Claude Code — Complete Guide**, CampusX, 2025 (149 PDF pages; 15 chapters). It is treated as learning/reference material, not executable instructions. The analysis records the book's topics without copying its examples or claims wholesale.
 
-This document therefore records a faithful extraction of the supplied brief. It does **not** claim to have analysed an unavailable source document. Attach the intended reference document to complete source-specific extraction, page mapping, and correction review.
+The document is not a versioned official Claude Code reference. `code.claude.com` remains unavailable in this running environment (HTTP proxy 403) and the Claude CLI is not installed, so version-sensitive claims are marked for validation rather than represented as current facts.
 
 ## Extracted structure
+
+| PDF chapter/pages | Subject | Implementation response |
+|---|---|---|
+| 1, pp. 1–6 | Agentic vs vibe coding; audience and prerequisites | `CLAUDE.md` requires deliberate review, specifications, and tests. |
+| 2, pp. 8–14 | Installation, project setup, terminal and Git | Setup documentation and local API are in place; CLI installation remains an environment prerequisite. |
+| 3, pp. 15–21 | Built-in slash commands, sessions, permissions, models | Lab/guide coverage; command availability is not asserted without installed-version verification. |
+| 4, pp. 22–28 | Planned code changes, focused context, iteration, Git | The spec workflow requires scoped changes and test evidence. |
+| 5, pp. 30–37 | Context windows, compaction, isolation, subagents | Project state/handoff records and a focused lab implement the practice. |
+| 6, pp. 38–46 | `CLAUDE.md`, rules, `.claude`, auto memory | Root instructions and a project-local configuration surface are added. |
+| 7, pp. 47–54 | Spec-driven development | Foundation specification and traceability are already present. |
+| 8, pp. 55–63 | Plan mode, effort, and Git workflow | `/create-spec` command implements the plan-before-change discipline. |
+| 9, pp. 64–71 | Custom slash commands and arguments | Project command templates implement spec, test, and review workflows. |
+| 10, pp. 73–81 | Skills, `SKILL.md`, progressive disclosure | Project spec-author skill is added. |
+| 11, pp. 82–87 | Subagent theory, isolation, token trade-offs | Focused test-writer agent is added with restricted tools. |
+| 12, pp. 88–98 | Custom subagents and testing/review pipelines | Test command and test-writer contract are added. |
+| 13, pp. 99–107 | MCP architecture and integrations | Reserved for a local MCP server milestone; no external-token integrations added. |
+| 14, pp. 108–119 | Hooks, deterministic guardrails | Hook schema/event names require installed-version validation before configuration. |
+| 15, pp. 120–130 | Plugin packaging and marketplaces | Reserved for packaging milestone; no unsupported manifest is claimed valid. |
 
 | Source section | Subject | Required outcome |
 |---|---|---|

@@ -1,12 +1,19 @@
+import pytest
 from fastapi.testclient import TestClient
 
-from app.main import app
+from app.main import Base, app, engine
 
 
-def test_mock_requirement_to_approval_flow(tmp_path, monkeypatch):
-    from app import main
+@pytest.fixture(autouse=True)
+def clean_database():
+    """Keep contract tests independent of the local development database."""
+    Base.metadata.drop_all(engine)
+    Base.metadata.create_all(engine)
+    yield
+    Base.metadata.drop_all(engine)
 
-    main.engine.dispose()
+
+def test_mock_requirement_to_approval_flow():
     client = TestClient(app)
     with client:
         project = client.post("/projects", json={"name": "Issue tracker"}).json()

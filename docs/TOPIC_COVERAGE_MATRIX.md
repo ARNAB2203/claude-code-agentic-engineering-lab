@@ -7,11 +7,11 @@ Status values: **Planned** = designed but not implemented; **Blocked** = awaitin
 | FND-01 | §6 Module 1 | Fundamentals | Beginner | `labs/beginner/01-cli-fundamentals.md` | Explore a repository safely | CLI/version check | Planned |
 | PRM-01 | §6 Module 2 | Prompt engineering | Beginner | `prompts/`, `labs/beginner/` | Refine a requirement prompt | Structured-output contract test | Planned |
 | CTX-01 | §6 Module 3 | Context engineering | Intermediate | `labs/intermediate/`, `docs/evaluations/` | Compare contextual approaches | Reliable usage data or protocol | Blocked |
-| MEM-01 | §6 Module 4 | Instructions and memory | Intermediate | `CLAUDE.md`, `.claude/rules/` | Apply path-specific rules | Installed-version check | Planned |
+| MEM-01 | PDF Ch. 6, pp. 38–46; §6 Module 4 | Instructions and memory | Intermediate | `CLAUDE.md` | Apply project rules | `CLAUDE.md` review | Implemented |
 | SDD-01 | §6 Module 5 | Spec-driven development | Intermediate | `specs/` | Trace a feature end to end | Traceability review | Planned |
-| CMD-01 | §6 Module 6 | Custom commands | Intermediate | `.claude/commands/` | Generate a feature spec | Command contract test | Planned |
-| AGT-01 | §6 Module 7 | Subagents | Intermediate | `.claude/agents/` | Delegate isolated review | Permission-scope review | Planned |
-| SKL-01 | §6 Module 8 | Skills | Intermediate | `.claude/skills/` | Run API-design skill | Skill discovery check | Planned |
+| CMD-01 | PDF Ch. 3, pp. 15–21; Ch. 9, pp. 64–71; §6 Module 6 | Custom commands | Intermediate | `.claude/commands/` | Create spec, test, review | Installed CLI discovery | Implemented—unverified activation |
+| AGT-01 | PDF Ch. 11, pp. 82–87; Ch. 12, pp. 88–98; §6 Module 7 | Subagents | Intermediate | `.claude/agents/test-writer.md` | Generate isolated tests | Filesystem/tool-scope review | Implemented—unverified activation |
+| SKL-01 | PDF Ch. 10, pp. 73–81; §6 Module 8 | Skills | Intermediate | `.claude/skills/spec-author/SKILL.md` | Draft a feature spec | Installed CLI discovery | Implemented—unverified activation |
 | HOK-01 | §6 Module 9 | Hooks | Advanced | `.claude/hooks/` | Block secret modification | Positive/negative hook tests | Blocked |
 | MCP-01 | §6 Module 10 | MCP server | Advanced | `mcp-servers/` | Query requirements/status | MCP tool tests | Planned |
 | ORC-01 | §6 Module 11 | Orchestration | Advanced | `agents/orchestrator/` | Approval-gated workflow | Contract/recovery tests | Planned |
